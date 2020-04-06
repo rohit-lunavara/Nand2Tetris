@@ -2,11 +2,19 @@
 
 Creating the hardware of a general purpose computer by building in order :
 
-1. Logic Gates
+## Done
 
-2. CPU, RAM and other chips
+1. **Logic Gates**
 
-3. Assembler
+2. **CPU, RAM and other chips**
+
+3. **Assembler for the Hack assembly language**
+
+## Pending
+
+4. Compiler for the Jack high-level language
+
+5. Jack OS
 
 The Assembler targets the instruction set of the Hack machine language (16-bit) to create binaries for execution.
 
