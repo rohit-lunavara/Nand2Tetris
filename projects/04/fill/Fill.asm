@@ -13,19 +13,20 @@
 
 // Put your code here.
 
+// blocks = 8192
 // LOOP :
 //   if KBD != 0 goto FILL
-//   reset SCREEN
+//   reset whole SCREEN
 //   goto LOOP
 //   
 // FILL :
-//   set SCREEN
+//   set whole SCREEN
 //   goto LOOP
 
 @8192
-D = A    // D = total number of pixels
+D = A
 @blocks
-M = D    // blocks = 512
+M = D    // blocks = 8192
 
 (LOOP)
 	@KBD
@@ -36,7 +37,7 @@ M = D    // blocks = 512
 	@n_block
 	M = 0 // n_block = 0
 
-	(EMPTYSCREEN)
+	(EMPTYSCREEN) // reset whole SCREEN
 		@n_block
 		D = M
 		@blocks
@@ -66,7 +67,7 @@ M = D    // blocks = 512
 	@n_block
 	M = 0 // n_block = 0
 
-	(FILLSCREEN)
+	(FILLSCREEN) // set whole SCREEN
 		@n_block
 		D = M
 		@blocks
