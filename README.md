@@ -50,3 +50,7 @@ IO, Screen, Keyboard, Math, String and Array libraries for a programming languag
 11. Creating the complete compiler from the syntax analyzer for the Jack programming language.
 
 12. Creating the Jack OS which implements the libraries to provide access for the hardware of the computer.
+
+## Credits
+
+[Nand2Tetris Website](https://www.nand2tetris.org/)
