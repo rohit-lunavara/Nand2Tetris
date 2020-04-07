@@ -31,7 +31,7 @@ The project contains support for peripherals such as a black and white Screen (2
 04. Creating assembly programs to understand how the Hack assembly language implements basic programming constructs such 
 as working with registers and memory, branching, variables, iteration, pointers, input / output.
 
-05. Creating the computer chip using the CPU and Memory chips constructed earlier.
+05. Creating the computer chip (Harvard Architecture) using the CPU and Memory chips constructed earlier.
 
 06. Creating an Assembler program that translates programs written in the Hack assembly language into binary code 
 that can execute on the Hack hardware platform built in the previous projects.
