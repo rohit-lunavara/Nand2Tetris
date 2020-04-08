@@ -33,8 +33,19 @@ as working with registers and memory, branching, variables, iteration, pointers,
 
 05. Creating the computer chip (Harvard Architecture) using the CPU and Memory chips constructed earlier.
 
-06. Creating an Assembler program that translates programs written in the Hack assembly language into binary code 
+06. Creating an Assembler program using Modern C++ (C++11 and onwards) that translates programs written in the Hack assembly language into binary code 
 that can execute on the Hack hardware platform built in the previous projects.
+
+## Notes
+
+To compile the Assembler `HackAssembler.cpp`, please enable C++11 features.
+To run the Assembler, supply the Hack assembly file names as command-line arguments, the resulting Hack binary files will be created in the same folder as the assembly files.
+
+For example, 
+```
+g++-10 HackAssembler.cpp -o HackAssembler.out -std=c++11
+./HackAssembler.out pong/Pong.asm max/MaxL.asm add/Add.asm
+```
 
 ## Future Projects
 
@@ -49,7 +60,7 @@ IO, Screen, Keyboard, Math, String and Array libraries for a programming languag
 
 11. Creating the complete compiler from the syntax analyzer for the Jack programming language.
 
-12. Creating the Jack OS which implements the libraries to provide access for the hardware of the computer.
+12. Creating the Jack OS which implements the libraries mentioned above to provide access for the hardware of the computer.
 
 ## Credits
 
